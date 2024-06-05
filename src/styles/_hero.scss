@@ -51,6 +51,11 @@
                     border: none;
                     margin-top: 2vw;
                     margin-bottom: 8px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #5a15fd;
+                    }
                 }
             }
         }
