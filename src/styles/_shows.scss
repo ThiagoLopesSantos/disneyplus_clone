@@ -1,6 +1,7 @@
 @use 'variaveis';
 .shows {
     padding: 2vw 5.6vw;
+    min-height: 50vw;
 
     &__list {
         display: none;
@@ -13,8 +14,6 @@
         }
 
         &__item {
-            cursor: pointer;
-            
             img {
                 max-width: 100%;
                 border-radius: 4px;
