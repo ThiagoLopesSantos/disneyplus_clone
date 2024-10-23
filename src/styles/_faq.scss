@@ -8,18 +8,23 @@
     }
 
     &__questions {
+
+        margin-top: 32px;
+
         &__item {
             background-color: #13151d;
             margin-bottom: 16px;
+            list-style: none;
 
             &__question {
                 color: #FFF;
-                font-size: 20px;
+                font-size: 25px;
+                font-weight: bold;
                 padding: 24px;
                 display: block;
                 cursor: pointer;
                 position: relative;
- 
+
                 &::after {
                     content: '+';
                     position: absolute;
@@ -37,6 +42,25 @@
                 overflow: hidden;
                 padding: 0 24px;
                 transition: height, .5s ease;
+
+
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+                    text-decoration: underline;
+                    line-height: 30px;
+                }
+
+                ul {
+                    padding-top: 16px;
+                    padding-left: 40px;
+                    list-style: inside;
+
+                    li {
+                        margin-top: 24px;
+                    }
+
+                }
             }
 
             &--is-open {
